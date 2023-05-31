@@ -1,0 +1,32 @@
+body{
+	background: grey;
+	font-size: 130%;
+}
+		body li{
+			list-style: none;
+		}
+		a:link, a:visited{
+			text-decoration: none;
+			background-color: yellow;
+			color: black;
+			display: block;
+			width: 200px;
+			text-align: center;
+			margin-bottom: 1px;
+		}
+		a:hover, a:active{
+			background-color: red;
+			color:purple;
+		}
+		body li:nth-child(1){
+			font-size: 24px;
+		}
+		section div:nth-child(odd){
+			color: darkred;
+		}
+		section div:nth-child(odd):hover{
+			background-color: greenyellow;
+		}
+		section div:nth-child(even):hover{
+			background-color: white;
+		}
